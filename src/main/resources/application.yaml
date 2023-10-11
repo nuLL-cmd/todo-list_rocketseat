@@ -1,0 +1,4 @@
+server:
+  servlet:
+    context-path: /@project.artifactId@
+  port: '8086'
