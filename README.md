@@ -7,6 +7,17 @@
 
 ✅Foi criado o projeto base e consolidado alguns conceitos teóricos sobre o Spring. Os commits não estão na ordem cronológica do curso, pois tem alguns assuntos que não senti necessidade de abordar, mas ao final, a aplicação estará completa usando as práticas e normas que atualmente uso no desenvolvimento Java.
 
+## Aula 02 - Integração com o banco de dados
+💾 Estamos apenas começando! Nessa aula você vai aprender mais sobre desenvolvimento em Java, Spring Framework e interações com banco de dados e seguir na construção do seu projeto usando as ferramentas mais modernas.
+
+-----------
+
+**Extras**
+✅Utilizado tratamento de exceção e retorno personalizado.
+✅Uso de decorators do Jackson para personalizar a saída.
+✅Camada de serviço e model para melhor organização e segurança dos dados.
+✅ModelMapper com bean de configuração inicial.
+
 
 ## Licença Apache Maven.
 * [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
