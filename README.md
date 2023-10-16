@@ -24,7 +24,7 @@
 
 ## Aula 03 - Task, Segurança nos dados do usuário.
 🗝️ Chegamos na metade do curso! Nessa aula você vai aprender aspectos cruciais de segurança e estruturação para garantir um acesso seguro a sua aplicação.
-
+💾 Implementação da estrutura de tasks e relacionamento com sus usuários.
 -----------
 
 **Extras**
