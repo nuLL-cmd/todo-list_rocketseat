@@ -33,6 +33,7 @@ public class FilterTaskAuth extends OncePerRequestFilter{
 
                             filterChain.doFilter(request, response);
                     }else {
+                    
    
                     var auth = request.getHeader("Authorization");
                     var basicAuth = auth.substring("Basic".length()).trim();
