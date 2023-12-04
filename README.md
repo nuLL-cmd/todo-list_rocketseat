@@ -22,6 +22,14 @@
 
 ✅Foi criado o projeto base e consolidado alguns conceitos teóricos sobre o Spring. Os commits não estão na ordem cronológica do curso, pois tem alguns assuntos que não senti necessidade de abordar, mas ao final, a aplicação estará completa usando as práticas e normas que atualmente uso no desenvolvimento Java.
 
+Para ter acesso ao banco de dados h2 neste modelo de aplicação, use os dados
+ 
+```text
+Url: jdbc:h2:mem:todolist
+User: admin
+Pass: admin
+```
+
 ## Aula 03 - Task, Segurança nos dados do usuário.
 🗝️ Chegamos na metade do curso! Nessa aula você vai aprender aspectos cruciais de segurança e estruturação para garantir um acesso seguro a sua aplicação.
 💾 Implementação da estrutura de tasks e relacionamento com sus usuários.

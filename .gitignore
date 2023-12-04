@@ -59,3 +59,4 @@ build/
 mvnw
 mvnw.cmd
 .mvn
+.DS_STORE

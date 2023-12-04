@@ -38,9 +38,9 @@ public class FilterTaskAuth extends OncePerRequestFilter{
                     var auth = request.getHeader("Authorization");
                     var basicAuth = auth.substring("Basic".length()).trim();
                     
-                    var authDecode = Base64.getDecoder().decode(basicAuth).toString();
-                    var userName = authDecode.split(":")[0];
-                    var password = authDecode.split(":")[1];
+                    var credentials = new String(Base64.getDecoder().decode(basicAuth));
+                    var userName = credentials.split(":")[0];
+                    var password = credentials.split(":")[1];
                         
                     Optional<UserEntity> userDatabase = userRepo.findByUserName(userName);
                     if(userDatabase.isEmpty()) {
